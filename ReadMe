@@ -1,0 +1,27 @@
+Usage:
+
+	1. Compile
+		make clean; make
+
+	2. To train the robot
+		./Zhang-Project3 train
+		
+		Note: Training takes less than 10 minutes of "Stage time" to finish with the default start point. It may take longer time to learning with other start points. Drag it a little bit if the robot stucks.
+	
+	3. To test the policy
+		./Zhang-Project3 test
+		
+		Note: Testing takes around 12 minutes of "Stage time"  to cover the whole map. Sometimes the robot may get stuck in the complex area around [-8, 8]. Drag the robot manually and it will work fine again.
+
+File contained
+	1. Zhang-Project3.cc	main file
+	
+	2. best.txt				saved best policy during training
+	
+	3. output.txt			output policy of a new training
+	
+	3. args.h				file to pasrse arguements
+	
+	4. Makefile				makefile
+
+	5. worlds				cfg, world files and so on
